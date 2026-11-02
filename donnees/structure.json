@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Soins Esprit Âme et Corps Réunis",
+  "description": "Libérations au Point Zéro, soins énergétiques, massages bien-être intuitifs, sonothérapie, accompagnements et enseignements avec Muriel Chaplain. Pratiques de bien-être non médicales.",
+  "url": "https://muriel-chaplain-maquette.vercel.app/",
+  "telephone": "+33613662049",
+  "email": "murielchaplain34@free.fr",
+  "founder": { "@type": "Person", "name": "Muriel Chaplain" },
+  "address": { "@type": "PostalAddress", "streetAddress": "2 bis chemin du Champ des Vignes, L’Horte", "postalCode": "34600", "addressLocality": "Taussac-la-Billière", "addressRegion": "Hérault", "addressCountry": "FR" },
+  "areaServed": "Lamalou-les-Bains et 30 minutes alentour",
+  "priceRange": "40 € – 160 € la séance",
+  "paymentAccepted": "Espèces, chèque, virement, PayPal",
+  "sameAs": [
+    "https://www.facebook.com/SoinEspritAmeetCorpsreunisTherapeuteBienEtre",
+    "https://www.instagram.com/soin.esprit.ame.corps.reunis/",
+    "https://www.resalib.fr/praticien/56468-muriel-chaplain-soin-esprit-ame-et-corps-reunis-energeticien-taussac-la-billiere"
+  ]
+}

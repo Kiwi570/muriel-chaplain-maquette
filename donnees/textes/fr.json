@@ -1,0 +1,479 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Prendre rendez-vous",
+    "actionCourte": "Rendez-vous",
+    "appeler": "Appeler",
+    "whatsapp": "WhatsApp",
+    "whatsappLong": "Écrire sur WhatsApp",
+    "nouvelOnglet": "(s’ouvre dans un nouvel onglet)",
+    "calmeReduire": "Réduire les animations",
+    "calmeRetablir": "Rétablir les animations",
+    "calmeSysteme": "Animations réduites par le réglage de votre appareil",
+    "sommaire": "Sommaire",
+    "confort": "Confort",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les informations marquées « à compléter » ou « à confirmer » seront fournies par Muriel Chaplain.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Muriel Chaplain",
+    "nom": "Muriel Chaplain",
+    "sousNom": "Esprit · Âme · Corps réunis",
+    "logoAlt": "Soins Esprit Âme et Corps Réunis, accueil",
+    "nonMedical": "Les soins proposés sont des pratiques de bien‑être non médicales : ils ne remplacent pas un avis, un diagnostic ou un traitement médical.",
+    "contact": "Contact",
+    "suivre": "Suivre Muriel",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "resalib": "Fiche Resalib",
+    "confidentialite": "Confidentialité",
+    "introMot1": "Esprit",
+    "introMot2": "Âme",
+    "introMot3": "Corps",
+    "introReunis": "Réunis",
+    "cadranAide": "Point Zéro : de 10 à 0 au fil de la page",
+    "son": {
+      "ecouter": "Écouter un bol",
+      "arreter": "Arrêter",
+      "joue": "Un bol chantant résonne",
+      "fini": "Le son est arrêté.",
+      "note": "Le son ne démarre que si vous appuyez, et s’arrête quand vous le souhaitez."
+    }
+  },
+  "nav": {
+    "muriel": "Muriel",
+    "soins": "Les soins",
+    "liberations": "Libérations",
+    "reconnexion": "Reconnexion à Soi",
+    "ateliers": "Ateliers",
+    "voyage": "Voyage",
+    "temoignages": "Témoignages",
+    "rendezvous": "Rendez-vous"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Muriel Chaplain : soins énergétiques, libérations et massages bien‑être près de Lamalou‑les‑Bains",
+      "description": "Libérations au Point Zéro, soins énergétiques, massages bien‑être intuitifs, sonothérapie et accompagnements avec Muriel Chaplain, au cabinet de L’Horte (Hérault), à domicile ou à distance.",
+      "nav": "Accueil",
+      "partageAlt": "Soins Esprit Âme et Corps Réunis : un lotus sur l’eau au coucher du soleil",
+      "accroche": "Revenir à soi, au Point Zéro"
+    },
+    "liberations": {
+      "titre": "Libérations au Point Zéro : Muriel Chaplain, L’Horte (Hérault)",
+      "description": "Libérer, facette après facette, émotions, pensées limitantes et schémas, depuis votre ressenti dans le corps. Séances de 1 h à 2 h avec Muriel Chaplain, dès 80 €.",
+      "nav": "Libérations au Point Zéro",
+      "partageAlt": "Libérations au Point Zéro : une goutte de lumière au-dessus d’une eau calme",
+      "accroche": "Libérations au Point Zéro"
+    },
+    "reconnexion": {
+      "titre": "Reconnexion à Soi : accompagnement de 1 à 9 mois avec Muriel Chaplain",
+      "description": "Un accompagnement sur mesure pour se comprendre, se libérer, s’accepter et s’aimer : au cabinet de L’Horte, en visio ou en séjour intensif. De 4 à 18 séances, dès 500 €.",
+      "nav": "Reconnexion à Soi",
+      "partageAlt": "Reconnexion à Soi : une silhouette au bord d’un lac au lever du soleil",
+      "accroche": "Reconnexion à Soi"
+    },
+    "mentions-legales": {
+      "titre": "Mentions légales et confidentialité : Soins Esprit Âme et Corps Réunis",
+      "description": "Éditeur, hébergeur, cadre de pratique, crédits et confidentialité du site de Muriel Chaplain.",
+      "nav": "Mentions légales",
+      "partageAlt": "Mentions légales de Soins Esprit Âme et Corps Réunis",
+      "accroche": "Mentions légales"
+    },
+    "404": {
+      "titre": "Page introuvable : Soins Esprit Âme et Corps Réunis",
+      "description": "Cette page n’existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Soins, accompagnements, enseignements",
+      "titre1": "Revenir à soi,",
+      "titre2": "au <em>Point Zéro</em>",
+      "texte": "Libérations, soins énergétiques, massages bien‑être et bains sonores pour retrouver calme, clarté et joie de vivre.",
+      "action": "Prendre rendez-vous",
+      "secondaire": "Découvrir les soins",
+      "info": "Cabinet à L’Horte, près de Lamalou‑les‑Bains · à domicile · à distance",
+      "alt": "Un lotus rose ouvert sur un étang calme, au coucher du soleil"
+    },
+    "muriel": {
+      "surtitre": "Qui suis-je ?",
+      "titre": "Je suis Muriel, je chemine avec chacun <em>vers son équilibre</em>",
+      "texte1": "Auprès des hommes et des femmes en chemin d’éveil et d’ouverture de conscience, je propose des séances individuelles pour vivre pleinement votre vie et retrouver ce qui vous porte.",
+      "texte2": "Mon grand but : faire circuler l’amour en vous, vous aider à retrouver la confiance, votre valeur, votre place, et réunir votre triade, esprit, âme et corps.",
+      "annees": "35",
+      "anneesTexte": "ans à me former aux approches du corps et de l’énergie",
+      "parcoursTitre": "Mon parcours",
+      "pourQuiTitre": "Pour qui ?",
+      "pourQui": "Pour tous les âges, pour toutes les personnes qui souhaitent maintenir ou améliorer leur bien‑être physique, psychique, énergétique et spirituel.",
+      "alt1": "Muriel Chaplain assise en tailleur sur un grand tambour, dans son cabinet",
+      "alt2": "Deux plaques de cristal gravées de géométries sacrées, posées dans l’herbe du jardin"
+    },
+    "soins": {
+      "surtitre": "Les soins",
+      "titre": "Des séances uniques, <em>à l’écoute</em> de ce que vous vivez",
+      "texte": "Chaque séance part de votre ressenti, ici et maintenant. Pour les libérations et les ateliers, le tarif est « selon vos ressources » : le montant indiqué est un minimum, libre à vous de donner plus.",
+      "guideTitre": "Quel soin pour moi ?",
+      "guideAide": "Choisissez ce dont vous avez envie :",
+      "guideVide": "Le soin qui vous correspond s’affiche ici.",
+      "guideConseil": "Pour « {envie} », je vous conseille : {soin}.",
+      "conseil": "Conseillé pour vous",
+      "nonMedical": "Bien‑être, non médical",
+      "avertissement": "Pratiques de bien‑être non médicales : elles ne remplacent pas un avis, un diagnostic ou un traitement médical. Les massages sont des massages de bien‑être, sans visée thérapeutique.",
+      "decouvrir": "Découvrir les libérations",
+      "reserver": "Réserver",
+      "ouPlus": "ou plus",
+      "tarifsTitre": "Tarifs"
+    },
+    "seance": {
+      "surtitre": "Une séance, pas à pas",
+      "titre": "De 10 à <em>0</em>",
+      "texte": "Tout au long de la séance, une seule boussole : la note que vous donnez à votre ressenti. Nous partons de là où vous en êtes et descendons ensemble, palier après palier, jusqu’à zéro.",
+      "pratique": "Installation assise ou allongée, en tenue confortable. Au cabinet, chez vous, ou à distance (téléphone ou visio) pour les soins énergétiques.",
+      "note": "Note du ressenti",
+      "alt": "Surface d’une eau calme au crépuscule, reflets prune et ivoire"
+    },
+    "accompagner": {
+      "surtitre": "Aller plus loin",
+      "titre": "Accompagner <em>et transmettre</em>",
+      "texte": "Pour celles et ceux qui souhaitent cheminer dans la durée, apprendre à s’équilibrer par eux-mêmes, ou vivre autrement leur relation au cheval.",
+      "reconnexionTitre": "Reconnexion à Soi",
+      "reconnexionTexte": "Un accompagnement sur mesure de 1 à 9 mois pour se comprendre, se libérer, s’accepter, s’aimer enfin.",
+      "reconnexionPrix": "De 4 à 18 séances de 1 h 30 · dès 500 €",
+      "reconnexionLien": "Découvrir l’accompagnement",
+      "reconnexionAlt": "Un sentier de garrigue mène vers le soleil levant, entre des collines dans la brume",
+      "pilierTitre": "Pilier de Lumière & Point Zéro",
+      "pilierTexte": "Un enseignement pour apprendre à vous remettre au Point Zéro par vous‑même, depuis votre corps et vos flux d’énergie, niveau après niveau.",
+      "pilierPrix": "Individuel : 2 h 160 € · 4 h 300 € — en groupe : 2 h 33 € par personne (3 personnes minimum)",
+      "pilierLieu": "Sur Zoom ou au cabinet. Déplacement en France pour un groupe de 6 personnes minimum, frais de déplacement à la charge du groupe.",
+      "pilierAction": "Demander une date",
+      "pilierAlt": "Dessin de Muriel Chaplain : une silhouette dans une colonne de lumière, entourée de flux de couleur",
+      "chevalTitre": "Connexion Cheval–Cavalier·e",
+      "chevalTexte": "Vivre autrement la relation à votre cheval : écoute, ressenti, confiance et coopération, de cœur à cœur. Pas de technique équestre, une connexion intuitive et énergétique.",
+      "chevalPrix": "Coaching de 2 h : 190 € · 3 coachings : 570 € · une journée sur votre lieu : 1 000 € (hors frais de déplacement)",
+      "chevalAction": "Réserver un coaching",
+      "chevalAlt": "Un cheval bai pose le bout du nez dans une main ouverte, dans un pré au soleil"
+    },
+    "ateliers": {
+      "surtitre": "Ateliers",
+      "titre": "Matinée Bain sonore · Méditation · <em>Danse</em>",
+      "texte": "Trois expériences complémentaires pour vibrer la paix, la détente et le bien‑être : bain sonore, méditation consciente, danse d’harmonisation et d’ancrage.",
+      "datesTitre": "Les dimanches",
+      "termine": "Terminé",
+      "aujourdhui": "Aujourd’hui",
+      "demain": "Demain",
+      "dansJours": "Dans {n} jours",
+      "prochaine": "Prochaine date",
+      "aucune": "Nouvelles dates à venir : demandez-les à Muriel.",
+      "horaire": "9 h accueil · 9 h 30 – 13 h 30",
+      "lieu": "L’Horte, à 5 min de Lamalou‑les‑Bains",
+      "tarif": "40 € par personne, ou plus selon vos ressources",
+      "apporter": "À apporter : tapis de sol, eau, plaid, coussin.",
+      "reservation": "Réservation et règlement auprès de Muriel.",
+      "action": "Réserver ma place",
+      "intervenantsTitre": "Avec",
+      "altInstruments": "Gong, bols chantants et carillons installés pour un bain sonore",
+      "altDanse": "Des participants dansent en cercle en se tenant la main, dans une salle lumineuse"
+    },
+    "voyage": {
+      "surtitre": "Voyage initiatique",
+      "titre": "Les Voix de <em>l’Unité</em>",
+      "sousTitre": "15 jours au Maroc, à La Source Gaïa et au cœur du désert",
+      "dates": "Du 6 au 20 mars 2027",
+      "nuits": "14 nuits (à confirmer)",
+      "prix": "1 480 € par personne, hors vol",
+      "avec": "Imaginé et accompagné par Cédric Mabyre et Muriel Chaplain",
+      "intro": "Et si la prochaine étape n’était pas d’apprendre davantage, mais d’aller plus profondément dans ce que vous êtes déjà ? Une immersion pour sortir du bruit, des habitudes et des rôles, et retrouver l’essentiel.",
+      "public": "Pour les personnes engagées dans un cheminement intérieur comme pour les thérapeutes, accompagnants, coachs et professionnels du bien‑être.",
+      "inclusTitre": "Inclus",
+      "nonInclusTitre": "Non inclus",
+      "contactsTitre": "Renseignements",
+      "action": "Demander le programme détaillé",
+      "note": "Demande d’informations simulée : aucune réservation ni paiement en ligne.",
+      "glisser": "Faites glisser pour voir le programme",
+      "defiler": "Faites défiler pour voir le programme",
+      "region": "Programme du voyage, défilement horizontal",
+      "alt": "Dunes du Sahara marocain à l’aube, une caravane minuscule au loin"
+    },
+    "temoignages": {
+      "surtitre": "Témoignages",
+      "titre": "Ce qu’en disent <em>les personnes accompagnées</em>",
+      "texte": "Extraits fidèles d’avis laissés par écrit : messages, Facebook, Resalib.",
+      "alt": "Un coin du cabinet : tambour, petite statue et tapis fleur de vie, à la lumière douce",
+      "ruban": "Merci"
+    },
+    "rdv": {
+      "surtitre": "Rendez-vous",
+      "titre": "Faire un <em>premier pas</em> ensemble",
+      "texte": "Si vous sentez que quelque chose en vous demande à évoluer, à s’ouvrir ou simplement à retrouver son équilibre, je vous propose de faire un premier pas ensemble.",
+      "contactTitre": "Me joindre",
+      "appeler": "06 13 66 20 49",
+      "smsWhatsapp": "Appel, SMS ou WhatsApp",
+      "cabinetTitre": "Où me trouver",
+      "adresse": "2 bis chemin du Champ des Vignes, L’Horte, 34600 Taussac-la-Billière",
+      "acces": "Au cabinet, à 5 min de Lamalou‑les‑Bains, dans l’Hérault.",
+      "domicile": "À domicile dans un rayon de 30 min autour de Lamalou‑les‑Bains (frais de déplacement à prévoir).",
+      "distance": "À distance, par téléphone ou visio, pour les soins énergétiques.",
+      "paiement": "Règlement : espèces, chèque, virement ou PayPal.",
+      "itineraire": "Voir l’itinéraire",
+      "carteLegende": "Plan schématique, non à l’échelle",
+      "carteCabinet": "Cabinet · L’Horte",
+      "carteLamalou": "Lamalou‑les‑Bains",
+      "carteZone": "À domicile : 30 min",
+      "alt": "Vallée du Haut-Languedoc au coucher du soleil, vignes et montagnes",
+      "lotusAlt": "Un lotus rose entièrement ouvert sur une eau sombre",
+      "formTitre": "Demander un rendez-vous",
+      "etapes": "4 étapes : le soin, le lieu, vos disponibilités, vos coordonnées.",
+      "etape": "Étape {n} sur 4",
+      "e1": "Le soin",
+      "e2": "Le lieu",
+      "e3": "Vos disponibilités",
+      "e4": "Vos coordonnées",
+      "sujetLegende": "Qu’est-ce qui vous intéresse ?",
+      "dureeLabel": "Durée souhaitée",
+      "dureeAucune": "Pas de préférence",
+      "formuleLabel": "Formule d’accompagnement",
+      "lieuLegende": "Où souhaitez-vous la séance ?",
+      "lieuCabinet": "Au cabinet, à L’Horte",
+      "lieuDomicile": "Chez moi (30 min autour de Lamalou)",
+      "lieuDistance": "À distance, par téléphone ou visio",
+      "lieuAide": "À distance : pour les soins énergétiques et l’accompagnement. Les massages se font au cabinet.",
+      "joursLegende": "Jours qui vous conviennent",
+      "momentsLegende": "Moments préférés",
+      "matin": "Matin",
+      "apresMidi": "Après-midi",
+      "soir": "Fin de journée",
+      "precisions": "Précisions (facultatif)",
+      "nom": "Prénom et nom",
+      "tel": "Téléphone",
+      "email": "E-mail (facultatif)",
+      "message": "Un mot pour Muriel (facultatif)",
+      "suivant": "Suivant",
+      "precedent": "Précédent",
+      "envoyer": "Envoyer ma demande",
+      "recapTitre": "Votre demande",
+      "recapVide": "Vos choix s’afficheront ici.",
+      "recapSoin": "Soin",
+      "recapLieu": "Lieu",
+      "recapDispo": "Disponibilités",
+      "choisir": "Faites un choix pour continuer.",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre demande de rendez-vous. <a href=\"/mentions-legales#confidentialite\">Politique de confidentialité</a> (à compléter).",
+      "simule": "Formulaire simulé : rien n’est envoyé.",
+      "envoye": "Demande simulée : rien n’a été envoyé. Sur le site final, elle partira vers Muriel, qui vous rappellera."
+    },
+    "jours": {
+      "lundi": "Lundi",
+      "mardi": "Mardi",
+      "mercredi": "Mercredi",
+      "jeudi": "Jeudi",
+      "vendredi": "Vendredi",
+      "samedi": "Samedi",
+      "dimanche": "Dimanche"
+    }
+  },
+  "liberations": {
+    "hero": {
+      "surtitre": "Le soin phare",
+      "titre1": "Libérations",
+      "titre2": "<em>au Point Zéro</em>",
+      "texte": "Libérer, facette après facette, ce qui vous retient : émotions, pensées limitantes, peurs, schémas répétitifs. Tout part de votre ressenti dans le corps.",
+      "action": "Réserver une libération",
+      "info": "Séance d’1 h : 80 € ou plus",
+      "alt": "Une goutte de lumière dorée suspendue au-dessus d’une eau sombre et immobile"
+    },
+    "principe": {
+      "surtitre": "Ce que c’est",
+      "titre": "Libérer ce qui est <em>stocké dans le corps</em>",
+      "texte1": "Ce sont des libérations émotionnelles, mentales, transgénérationnelles, mémorielles, énergétiques… stockées dans votre corps et vos corps de conscience. On les appelle aussi « libérations quantiques ».",
+      "texte2": "Cette méthode douce s’adresse à l’inconscient : on accueille les émotions, pensées et schémas de vie ancrés dans le corps, bien au-delà du mental. Pendant la séance, j’utilise mon intuition et ma connexion à la Source pour identifier et libérer ce qui bloque, sans avoir besoin de tout comprendre ou expliquer.",
+      "citation": "Là où demeure un blocage, il y a une force active au cœur de notre héritage.",
+      "citationSource": "Une phrase qui m’accompagne",
+      "alt": "Un fil de lumière dorée, emmêlé, flotte au-dessus d’une eau calme"
+    },
+    "echelle": {
+      "surtitre": "Pourquoi « Point Zéro » ?",
+      "titre": "Une note, <em>de 10 à 0</em>",
+      "texte": "Je vous demande toujours une note de 0 à 10 sur le ressenti situé dans votre corps. Quand on arrive à 0, les facettes du problème abordées sont libérées.",
+      "aide": "Faites glisser le curseur de 10 vers 0.",
+      "label": "Note du ressenti dans le corps",
+      "n10": "10 : le ressenti est intense, il occupe toute la place.",
+      "n7": "Le ressenti est encore bien présent, il commence à bouger.",
+      "n4": "Le ressenti s’allège, l’espace revient.",
+      "n1": "Presque plus rien : on y est presque.",
+      "n0": "0 : Point Zéro. La facette travaillée est libérée, l’eau est calme."
+    },
+    "deroule": {
+      "surtitre": "Comment ça se passe",
+      "titre": "Un vrai travail <em>en duo</em>",
+      "texte": "On avance ensemble, au rythme de ce que vous ressentez : c’est un vrai travail en duo, où votre motivation est essentielle. Vous allez ressentir avec votre corps ce qui est en vous. Et si vous ne savez pas ressentir, je vais vous apprendre, en simplicité.",
+      "e1t": "Énoncer",
+      "e1": "Vous me dites ce qui vous amène ; mes questions aident à cerner votre demande.",
+      "e2t": "Ressentir",
+      "e2": "Vous situez le ressenti dans votre corps et lui donnez une note de 0 à 10.",
+      "e3t": "Accueillir et libérer",
+      "e3": "Les phases d’accueil et d’apport de lumière se succèdent, à votre rythme.",
+      "e4t": "Revenir à zéro",
+      "e4": "On sent généralement la différence pendant la séance : vous respirez, vous lâchez prise.",
+      "alt": "Muriel Chaplain pose les mains au-dessus d’une personne allongée sur la table de soin"
+    },
+    "objectif": {
+      "surtitre": "Mais pas que !",
+      "titre": "Un objectif de vie <span class=\"mot-tournant\" data-mots>personnel</span> ?",
+      "titreSimple": "Un objectif de vie",
+      "mots": "personnel|amical|familial|professionnel",
+      "texte": "Vous avez un projet de vie, personnel, amical, familial ou professionnel ? Nous allons aborder un maximum de facettes pour vous amener à le réaliser, à le créer, plus facilement.",
+      "alt": "Un ponton de bois s’avance dans un lac calme vers le soleil levant"
+    },
+    "tarifs": {
+      "surtitre": "Tarifs",
+      "titre": "Selon vos ressources, <em>votre ressenti</em>",
+      "texte": "Le montant indiqué est un minimum : vous pouvez donner plus, selon votre élan. Séances au cabinet à L’Horte, ou à distance (à confirmer).",
+      "t1": "1 h",
+      "p1": "80 €",
+      "t2": "1 h 30",
+      "p2": "120 €",
+      "t3": "2 h",
+      "p3": "160 €",
+      "ouPlus": "ou plus",
+      "reserver": "Réserver",
+      "alt": "Un bloc de cristal de roche posé dans l’herbe, au soleil"
+    },
+    "temoignages": {
+      "surtitre": "Témoignages",
+      "titre": "Ce qu’a changé <em>une libération</em>",
+      "alt": "La table de soin du cabinet, à la lumière du jour"
+    },
+    "faq": {
+      "surtitre": "Questions fréquentes",
+      "titre": "Avant de <em>venir</em>",
+      "alt": "Un lac parfaitement immobile reflète des nuages roses à l’heure bleue",
+      "altDessin": "Dessin de Muriel Chaplain : un yin et yang au-dessus d’une spirale aux couleurs vives"
+    },
+    "fin": {
+      "titre": "Envie de revenir <em>à zéro</em> ?",
+      "texte": "Une séance d’1 h, d’1 h 30 ou de 2 h, au cabinet ou à distance. Appelez, écrivez un SMS ou un message WhatsApp.",
+      "action": "Demander une séance",
+      "lien": "Aller plus loin : Reconnexion à Soi"
+    }
+  },
+  "reconnexion": {
+    "hero": {
+      "surtitre": "Accompagnement individuel",
+      "titre1": "Reconnexion",
+      "titre2": "<em>à Soi</em>",
+      "texte": "Un « essentiel » pour se comprendre, se libérer, s’accepter, s’aimer enfin. Vous allez vivre alignée ou aligné à vos valeurs profondes, pas à pas, jour après jour, à votre rythme.",
+      "action": "Composer mon accompagnement",
+      "info": "De 1 à 9 mois · dès 500 €",
+      "alt": "Une femme de dos, au bord d’un lac au lever du soleil, dans la brume"
+    },
+    "intentions": {
+      "surtitre": "Ce que l’accompagnement permet",
+      "titre": "Retrouver votre valeur, votre sécurité, <em>votre joie</em>",
+      "texte": "Je vous guide vers votre liberté intérieure : nous allons ouvrir la voie, la vision, votre cœur. C’est vivre depuis l’émerveillement, la joie, l’amour de la vie.",
+      "alt": "Reflets de soleil scintillant sur une eau sombre"
+    },
+    "outils": {
+      "surtitre": "Sur mesure",
+      "titre": "Les outils <em>de votre accompagnement</em>",
+      "texte": "Je crée pour vous un accompagnement sur mesure. Selon vos besoins, et selon que vous veniez au cabinet ou en ligne, il se compose de :"
+    },
+    "formats": {
+      "surtitre": "Trois formats",
+      "titre": "Là où <em>vous êtes</em>",
+      "f1t": "Au cabinet",
+      "f1": "À L’Horte (du latin hortus, « le jardin »), à 5 min de Lamalou‑les‑Bains.",
+      "f1alt": "La table de soin du cabinet de L’Horte",
+      "f2t": "En visio ou par téléphone",
+      "f2": "Chez vous, où que vous soyez.",
+      "f2alt": "Une tasse de tisane, un carnet ouvert et un téléphone posés sur un coussin près d’une fenêtre",
+      "f3t": "En séjour intensif",
+      "f3": "Une semaine dans un lieu merveilleux, en France ou à l’étranger.",
+      "f3alt": "Une maison de pierre parmi les oliviers, au soleil couchant"
+    },
+    "simulateur": {
+      "surtitre": "Durée et budget",
+      "titre": "Choisissez <em>votre durée</em>",
+      "texte": "Les séances durent 1 h 30. Le règlement peut se répartir à chaque séance, tous les 15 jours, au mois, ou se faire en une fois.",
+      "legende": "Durée de l’accompagnement",
+      "mois1": "1 mois",
+      "moisN": "{n} mois",
+      "seances": "{n} séances de 1 h 30",
+      "semaine": "une séance chaque semaine",
+      "quinzaine": "une séance tous les 15 jours",
+      "total": "Total",
+      "parSeance": "Soit environ, par séance",
+      "parMois": "Soit environ, par mois",
+      "inclus": "Inclus : échanges par WhatsApp si besoin, deux fois par semaine (questions, conseils).",
+      "autres": "Autres demandes possibles : à créer ensemble.",
+      "action": "Demander cet accompagnement",
+      "galetsAide": "Chaque galet représente une séance, placée sur la durée choisie.",
+      "debut": "Début",
+      "fin": "Fin",
+      "ligne": "{n} séances · {rythme}",
+      "chaqueSemaine": "chaque semaine",
+      "tous15": "tous les 15 jours"
+    },
+    "pourquoi": {
+      "surtitre": "Pourquoi une séance ne suffirait-elle pas ?",
+      "titre": "Monter <em>progressivement</em>",
+      "texte1": "Je vous réponds par cette métaphore : si votre corps est « branché » sur 10 volts au quotidien, imaginez, ressentez, ce que cela ferait de passer directement sur 100, 1 000 ou 10 000 volts dans votre corps et dans votre psyché.",
+      "texte2": "On s’habitue progressivement à son nouveau soi : c’est bien plus doux pour que votre système accueille les changements harmonieusement.",
+      "v1": "10 volts",
+      "v2": "100 volts",
+      "v3": "1 000 volts",
+      "v4": "10 000 volts",
+      "alt": "Collines en couches successives dans la brume, la lumière de l’aube monte à l’horizon"
+    },
+    "temoignage": {
+      "surtitre": "Témoignage",
+      "titre": "« Recentrage »",
+      "alt": "Un cheval bai pose le bout du nez dans une main ouverte, dans un pré au soleil"
+    },
+    "fin": {
+      "titre": "Composer votre accompagnement <em>avec Muriel</em>",
+      "texte": "Un premier échange par téléphone, SMS ou WhatsApp permet de poser votre demande et de choisir ensemble le rythme qui vous convient.",
+      "action": "Demander un premier échange",
+      "lien": "Commencer par une séance de libération"
+    }
+  },
+  "mentions": {
+    "titre": "Mentions légales",
+    "fiche": {
+      "titre": "À fournir par Muriel Chaplain",
+      "texte": "Forme juridique et numéro SIRET à confirmer · directeur ou directrice de la publication · assurance responsabilité civile professionnelle · photos et droits à l’image des personnes visibles · organisateur du voyage et son immatriculation · politique de confidentialité · durée de conservation des demandes."
+    },
+    "editeur": {
+      "titre": "Éditeur",
+      "texte": "Muriel Chaplain, Soins Esprit Âme et Corps Réunis, 2 bis chemin du Champ des Vignes, L’Horte, 34600 Taussac-la-Billière. Téléphone : 06 13 66 20 49. E-mail : murielchaplain34@free.fr. Numéro d’identification : 750 012 155 (indiqué sur Resalib, à confirmer). Directeur ou directrice de la publication : à compléter."
+    },
+    "hebergeur": {
+      "titre": "Hébergeur",
+      "texte": "Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis."
+    },
+    "cadre": {
+      "titre": "Cadre de pratique",
+      "texte": "Les soins énergétiques, libérations, massages et bains sonores proposés sont des pratiques de bien‑être non médicales. Ils ne remplacent pas un avis, un diagnostic ou un traitement médical, et ne doivent jamais conduire à interrompre un traitement. Les massages sont des massages de bien‑être, sans visée thérapeutique."
+    },
+    "credits": {
+      "titre": "Crédits",
+      "texte": "Photographies : Muriel Chaplain (à confirmer). Les images marquées « Illustration générée » ont été créées par intelligence artificielle et ne représentent ni des personnes ni des lieux réels du cabinet. Polices Fraunces et Figtree, sous licence SIL Open Font License."
+    },
+    "confidentialite": {
+      "titre": "Confidentialité",
+      "texte": "Politique de confidentialité à compléter (RGPD) : données recueillies par les formulaires (nom, téléphone, e-mail, message), finalité (répondre à votre demande), durée de conservation, destinataire (Muriel Chaplain uniquement), droits d’accès, de rectification et d’effacement, contact. Ce site ne dépose aucun cookie de mesure d’audience ; il garde seulement, dans votre navigateur, votre réglage « Réduire les animations »."
+    }
+  },
+  "introuvable": {
+    "titre": "Cette page s’est <em>libérée</em>",
+    "texte": "Elle n’existe pas ou plus. Revenons ensemble au Point Zéro.",
+    "retour": "Revenir à l’accueil",
+    "alt": "Une goutte d’eau suspendue au-dessus d’une surface sombre et lisse"
+  }
+}

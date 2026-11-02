@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-gabarit="liberations" data-page="liberations" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Libérations au Point Zéro : Muriel Chaplain, L’Horte (Hérault)</title>
+<meta name="description" content="Libérer, facette après facette, émotions, pensées limitantes et schémas, depuis votre ressenti dans le corps. Séances de 1 h à 2 h avec Muriel Chaplain, dès 80 €.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://muriel-chaplain-maquette.vercel.app/liberations-point-zero">
+<style>:root{--fond:#f6f0e6;--texte:#2b1e2f;--voile-fond:#2b1e2f;--ouverture-fond:#2b1e2f;--menu-fond:#f6f0e6}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f6f0e6">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Soins Esprit Âme et Corps Réunis">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Libérations au Point Zéro : Muriel Chaplain, L’Horte (Hérault)">
+<meta property="og:description" content="Libérer, facette après facette, émotions, pensées limitantes et schémas, depuis votre ressenti dans le corps. Séances de 1 h à 2 h avec Muriel Chaplain, dès 80 €.">
+<meta property="og:url" content="https://muriel-chaplain-maquette.vercel.app/liberations-point-zero">
+<meta property="og:image" content="https://muriel-chaplain-maquette.vercel.app/assets/partage/liberations-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Libérations au Point Zéro : une goutte de lumière au-dessus d’une eau calme">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Soins Esprit Âme et Corps Réunis","description":"Libérations au Point Zéro, soins énergétiques, massages bien-être intuitifs, sonothérapie, accompagnements et enseignements avec Muriel Chaplain. Pratiques de bien-être non médicales.","url":"https://muriel-chaplain-maquette.vercel.app/","telephone":"+33613662049","email":"murielchaplain34@free.fr","founder":{"@type":"Person","name":"Muriel Chaplain"},"address":{"@type":"PostalAddress","streetAddress":"2 bis chemin du Champ des Vignes, L’Horte","postalCode":"34600","addressLocality":"Taussac-la-Billière","addressRegion":"Hérault","addressCountry":"FR"},"areaServed":"Lamalou-les-Bains et 30 minutes alentour","priceRange":"40 € – 160 € la séance","paymentAccepted":"Espèces, chèque, virement, PayPal","sameAs":["https://www.facebook.com/SoinEspritAmeetCorpsreunisTherapeuteBienEtre","https://www.instagram.com/soin.esprit.ame.corps.reunis/","https://www.resalib.fr/praticien/56468-muriel-chaplain-soin-esprit-ame-et-corps-reunis-energeticien-taussac-la-billiere"]}</script>
+</head>
+<body id="haut">
+<div data-voile aria-hidden="true"><div class="voile-contenu"><span class="voile-goutte"></span><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Libérations au Point Zéro</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="intro-ondes" viewBox="-50 -50 100 100" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <circle class="intro-onde" r="12"></circle><circle class="intro-onde" r="24"></circle><circle class="intro-onde" r="38"></circle>
+  </svg>
+  <span class="intro-goutte"></span>
+  <p class="intro-mots"><span class="intro-mot">Esprit</span><span class="intro-mot">Âme</span><span class="intro-mot">Corps</span></p>
+  <p class="intro-reunis">Réunis</p>
+  <p class="intro-bas"><span class="intro-cadran" data-intro-cadran>10</span><span class="intro-nom">Muriel Chaplain</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Soins Esprit Âme et Corps Réunis, accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40">
+      <span class="logo-texte"><span class="logo-nom">Muriel Chaplain</span><span class="logo-sous">Esprit · Âme · Corps réunis</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/#muriel" data-libelle="Muriel">Muriel</a></li><li><a href="/#soins" data-libelle="Les soins">Les soins</a></li><li><a href="/liberations-point-zero" data-libelle="Libérations" aria-current="page">Libérations</a></li><li><a href="/reconnexion-a-soi" data-libelle="Reconnexion à Soi">Reconnexion à Soi</a></li><li><a href="/#ateliers" data-libelle="Ateliers">Ateliers</a></li><li><a href="/#voyage" data-libelle="Voyage">Voyage</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <span class="cadran " data-cadran aria-hidden="true" title="Point Zéro : de 10 à 0 au fil de la page">
+  <svg viewBox="0 0 44 44" focusable="false"><circle class="cadran-fond" cx="22" cy="22" r="19"></circle><circle class="cadran-arc" cx="22" cy="22" r="19" pathLength="100"></circle></svg>
+  <span class="cadran-chiffre" data-cadran-chiffre>10</span>
+</span>
+      <a class="bouton" href="/#rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span class="menu-icone" aria-hidden="true"><span></span><span></span></span><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="menu-grille">
+    <ul class="menu-liste"><li style="--i:0"><a class="menu-lien" href="/" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a class="menu-lien" href="/#muriel" data-libelle="Muriel">Muriel</a></li><li style="--i:2"><a class="menu-lien" href="/#soins" data-libelle="Les soins">Les soins</a></li><li style="--i:3"><a class="menu-lien" href="/liberations-point-zero" data-libelle="Libérations" aria-current="page">Libérations</a></li><li style="--i:4"><a class="menu-lien" href="/reconnexion-a-soi" data-libelle="Reconnexion à Soi">Reconnexion à Soi</a></li><li style="--i:5"><a class="menu-lien" href="/#ateliers" data-libelle="Ateliers">Ateliers</a></li><li style="--i:6"><a class="menu-lien" href="/#voyage" data-libelle="Voyage">Voyage</a></li></ul>
+    <div class="menu-contact">
+      <p><a class="bouton" href="/#rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a></p>
+      <p><a class="bouton bouton--contour" href="tel:+33613662049">Appeler 06 13 66 20 49</a></p>
+      <p><a class="bouton bouton--contour" href="https://wa.me/33613662049" rel="noopener" target="_blank">Écrire sur WhatsApp<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></p>
+      <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+    </div>
+  </div>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero hero--page hero--sombre" id="debut">
+  <div class="hero-fond">
+    <figure class="media hero-media" data-grok style="--cadrage:66% 50%;--cadrage-mobile:50% 62%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/liberations-ouverture-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/grok/liberations-ouverture-1168.webp" srcset="/assets/images/grok/liberations-ouverture-640.webp 640w, /assets/images/grok/liberations-ouverture-1168.webp 1168w" sizes="100vw" alt="Une goutte de lumière dorée suspendue au-dessus d’une eau sombre et immobile" width="1168" height="657" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="hero-voile" aria-hidden="true"></div>
+    <span class="dix" data-dix aria-hidden="true" data-audit-ignorer>10</span>
+  </div>
+  <div class="hero-texte conteneur">
+    <p class="surtitre hero-surtitre" data-anime="gsap">Le soin phare</p>
+    <h1 class="hero-titre"><span class="ligne-masque"><span class="hero-ligne" data-anime="gsap">Libérations</span></span><span class="ligne-masque"><span class="hero-ligne" data-anime="gsap"><em>au Point Zéro</em></span></span></h1>
+    <p class="hero-intro" data-anime="gsap">Libérer, facette après facette, ce qui vous retient : émotions, pensées limitantes, peurs, schémas répétitifs. Tout part de votre ressenti dans le corps.</p>
+    <p class="hero-actions" data-anime="gsap">
+      <a class="bouton bouton--clair" href="/?sujet=liberations#rendez-vous" data-action-principale data-libelle="Rendez-vous">Réserver une libération</a>
+      <a class="lien-fleche lien-fleche--clair" href="#tarifs">Tarifs</a>
+    </p>
+    <p class="hero-info" data-info-cle data-anime="gsap">Séance d’1 h : 80 € ou plus</p>
+  </div>
+</section>
+<section class="principe" id="principe">
+  <div class="conteneur principe-grille">
+    <div class="principe-visuel">
+      <figure class="media principe-media" data-grok style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/grok/fil-lumiere-784.webp" srcset="/assets/images/grok/fil-lumiere-640.webp 640w, /assets/images/grok/fil-lumiere-784.webp 784w" sizes="(max-width: 760px) 92vw, 40vw" alt="Un fil de lumière dorée, emmêlé, flotte au-dessus d’une eau calme" width="784" height="1168" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <svg class="fil" viewBox="0 0 600 160" preserveAspectRatio="none" aria-hidden="true" focusable="false" data-audit-ignorer><path class="fil-halo" data-fil></path><path class="fil-trait" data-fil></path></svg>
+    </div>
+    <div class="principe-texte">
+      <p class="surtitre" data-anime>Ce que c’est</p>
+      <h2 data-anime>Libérer ce qui est <em>stocké dans le corps</em></h2>
+      <p class="chapeau" data-anime>Ce sont des libérations émotionnelles, mentales, transgénérationnelles, mémorielles, énergétiques… stockées dans votre corps et vos corps de conscience. On les appelle aussi « libérations quantiques ».</p>
+      <p data-anime>Cette méthode douce s’adresse à l’inconscient : on accueille les émotions, pensées et schémas de vie ancrés dans le corps, bien au-delà du mental. Pendant la séance, j’utilise mon intuition et ma connexion à la Source pour identifier et libérer ce qui bloque, sans avoir besoin de tout comprendre ou expliquer.</p>
+      <blockquote class="citation" data-anime><p>Là où demeure un blocage, il y a une force active au cœur de notre héritage.</p><footer>Une phrase qui m’accompagne</footer></blockquote>
+    </div>
+  </div>
+</section>
+<section class="echelle" id="echelle">
+  <div class="conteneur echelle-grille">
+    <div class="echelle-texte">
+      <p class="surtitre surtitre--clair" data-anime>Pourquoi « Point Zéro » ?</p>
+      <h2 data-anime>Une note, <em>de 10 à 0</em></h2>
+      <p class="chapeau" data-anime>Je vous demande toujours une note de 0 à 10 sur le ressenti situé dans votre corps. Quand on arrive à 0, les facettes du problème abordées sont libérées.</p>
+    </div>
+    <div class="echelle-outil" data-echelle data-anime
+      data-n10="10 : le ressenti est intense, il occupe toute la place." data-n7="Le ressenti est encore bien présent, il commence à bouger." data-n4="Le ressenti s’allège, l’espace revient." data-n1="Presque plus rien : on y est presque." data-n0="0 : Point Zéro. La facette travaillée est libérée, l’eau est calme.">
+      <div class="echelle-eau" data-visuel>
+        <canvas class="echelle-canvas" width="640" height="360" data-echelle-canvas aria-hidden="true"></canvas>
+        <output class="echelle-chiffre" for="f-echelle" data-echelle-chiffre>10</output>
+      </div>
+      <label class="echelle-label" for="f-echelle">Note du ressenti dans le corps</label>
+      <input class="echelle-curseur" id="f-echelle" type="range" min="0" max="10" step="1" value="10" aria-valuetext="10 : le ressenti est intense, il occupe toute la place.">
+      <p class="echelle-graduations" aria-hidden="true"><span>10</span><span>5</span><span>0</span></p>
+      <p class="echelle-etat" data-echelle-etat aria-live="polite">10 : le ressenti est intense, il occupe toute la place.</p>
+      <p class="aide">Faites glisser le curseur de 10 vers 0.</p>
+    </div>
+  </div>
+</section>
+<section class="deroule" id="deroule">
+  <div class="conteneur deroule-grille">
+    <figure class="media deroule-media" style="--cadrage:32% 45%">
+  <picture>
+    <img src="/assets/images/seance-soin-1024.webp" srcset="/assets/images/seance-soin-640.webp 640w, /assets/images/seance-soin-1024.webp 1024w" sizes="(max-width: 760px) 92vw, 44vw" alt="Muriel Chaplain pose les mains au-dessus d’une personne allongée sur la table de soin" width="1024" height="768" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="deroule-texte">
+      <p class="surtitre" data-anime>Comment ça se passe</p>
+      <h2 data-anime>Un vrai travail <em>en duo</em></h2>
+      <p data-anime>On avance ensemble, au rythme de ce que vous ressentez : c’est un vrai travail en duo, où votre motivation est essentielle. Vous allez ressentir avec votre corps ce qui est en vous. Et si vous ne savez pas ressentir, je vais vous apprendre, en simplicité.</p>
+      <div class="onde-cadre" data-onde-etapes>
+        <svg class="onde-ligne" viewBox="0 0 20 400" preserveAspectRatio="none" aria-hidden="true" focusable="false" data-audit-ignorer><path data-onde d="M10 0 C 0 25, 20 50, 10 75 S 0 125, 10 150 S 20 200, 10 225 S 0 275, 10 300 S 10 350, 10 400" pathLength="100"></path></svg>
+        <ol class="onde-etapes">
+        <li class="onde-etape" data-anime><h3>Énoncer</h3><p>Vous me dites ce qui vous amène ; mes questions aident à cerner votre demande.</p></li><li class="onde-etape" data-anime><h3>Ressentir</h3><p>Vous situez le ressenti dans votre corps et lui donnez une note de 0 à 10.</p></li><li class="onde-etape" data-anime><h3>Accueillir et libérer</h3><p>Les phases d’accueil et d’apport de lumière se succèdent, à votre rythme.</p></li><li class="onde-etape" data-anime><h3>Revenir à zéro</h3><p>On sent généralement la différence pendant la séance : vous respirez, vous lâchez prise.</p></li>
+      </ol>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="objectif" id="objectif">
+  <figure class="media objectif-media" data-grok style="--cadrage:50% 62%">
+  <picture>
+    <img src="/assets/images/grok/chemin-horizon-1168.webp" srcset="/assets/images/grok/chemin-horizon-640.webp 640w, /assets/images/grok/chemin-horizon-1168.webp 1168w" sizes="100vw" alt="Un ponton de bois s’avance dans un lac calme vers le soleil levant" width="1168" height="657" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur objectif-texte">
+    <p class="surtitre surtitre--clair" data-anime>Mais pas que !</p>
+    <h2 data-anime>Un objectif de vie <span class="mots" data-mots aria-hidden="true"><span class="mot actif">personnel&#160;?</span><span class="mot">amical&#160;?</span><span class="mot">familial&#160;?</span><span class="mot">professionnel&#160;?</span></span></h2>
+    <p data-anime>Vous avez un projet de vie, personnel, amical, familial ou professionnel ? Nous allons aborder un maximum de facettes pour vous amener à le réaliser, à le créer, plus facilement.</p>
+  </div>
+</section>
+<section class="tarifs-page" id="tarifs">
+  <div class="conteneur tarifs-grille">
+    <div>
+      <p class="surtitre" data-anime>Tarifs</p>
+      <h2 data-anime>Selon vos ressources, <em>votre ressenti</em></h2>
+      <p data-anime>Le montant indiqué est un minimum : vous pouvez donner plus, selon votre élan. Séances au cabinet à L’Horte, ou à distance (à confirmer).</p>
+      <figure class="media tarifs-media" style="--cadrage:42% 55%">
+  <picture>
+    <img src="/assets/images/quartz-herbe-1280.webp" srcset="/assets/images/quartz-herbe-640.webp 640w, /assets/images/quartz-herbe-1280.webp 1280w" sizes="(max-width: 760px) 92vw, 40vw" alt="Un bloc de cristal de roche posé dans l’herbe, au soleil" width="1280" height="918" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <ul class="formules-cartes"><li class="formule-carte" data-anime style="--i:1">
+      <p class="formule-duree">1 h</p>
+      <p class="formule-prix" data-prix>80 € <small>ou plus</small></p>
+      <p><a class="bouton bouton--petit" href="/?sujet=liberations&amp;duree=1h#rendez-vous" data-libelle="Rendez-vous">Réserver</a></p>
+    </li><li class="formule-carte" data-anime style="--i:2">
+      <p class="formule-duree">1 h 30</p>
+      <p class="formule-prix" data-prix>120 €</p>
+      <p><a class="bouton bouton--petit" href="/?sujet=liberations&amp;duree=1h30#rendez-vous" data-libelle="Rendez-vous">Réserver</a></p>
+    </li><li class="formule-carte" data-anime style="--i:3">
+      <p class="formule-duree">2 h</p>
+      <p class="formule-prix" data-prix>160 € <small>ou plus</small></p>
+      <p><a class="bouton bouton--petit" href="/?sujet=liberations&amp;duree=2h#rendez-vous" data-libelle="Rendez-vous">Réserver</a></p>
+    </li></ul>
+  </div>
+</section>
+<section class="temoignages temoignages--page" id="temoignages">
+  <div class="conteneur temoignages-grille">
+    <div class="temoignages-tete">
+      <p class="surtitre" data-anime>Témoignages</p>
+      <h2 data-anime>Ce qu’a changé <em>une libération</em></h2>
+      <figure class="media temoignages-media" style="--cadrage:50% 60%">
+  <picture>
+    <img src="/assets/images/cabinet-table-portrait-1200.webp" srcset="/assets/images/cabinet-table-portrait-640.webp 640w, /assets/images/cabinet-table-portrait-1200.webp 1200w" sizes="(max-width: 760px) 92vw, 30vw" alt="La table de soin du cabinet, à la lumière du jour" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <ul class="avis"><li class="avis-carte avis-carte--grande" data-anime>
+      <blockquote><p>J’ai commencé par énoncer ma problématique que Muriel est venue questionner avec une grande maturité professionnelle, ses questions sont toujours bien ciblées, ses mots sont choisis et précis. […] Suite à la séance, j’ai ressenti une très grande détente […] Je ne me sens plus la même à la suite de cette libération. Je conseille Muriel sans l’ombre d’une hésitation.</p></blockquote>
+      <p class="avis-nom">Françoise, kinésiologue<span>libération quantique, septembre 2026 · message</span></p>
+    </li><li class="avis-carte avis-carte--grande" data-anime>
+      <blockquote><p>Ma rencontre avec Muriel a redéfini mon orientation et ma perception du champ d’expérience de ma vie. Je suis venu la rencontrer pour m’aider à comprendre un choc […] Son accompagnement m’a permis de me libérer de la colère liée à cet événement.</p></blockquote>
+      <p class="avis-nom">Éric, masseur holistique<span>accompagnement et atelier · témoignage écrit</span></p>
+    </li></ul>
+  </div>
+</section>
+<section class="faq" id="faq">
+  <div class="conteneur faq-grille">
+    <div>
+      <p class="surtitre" data-anime>Questions fréquentes</p>
+      <h2 data-anime>Avant de <em>venir</em></h2>
+      <figure class="media faq-dessin" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/dessin-spirales-1280.webp" srcset="/assets/images/dessin-spirales-640.webp 640w, /assets/images/dessin-spirales-1280.webp 1280w, /assets/images/dessin-spirales-1920.webp 1920w" sizes="(max-width: 760px) 60vw, 22vw" alt="Dessin de Muriel Chaplain : un yin et yang au-dessus d’une spirale aux couleurs vives" width="1280" height="1809" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="faq-liste"><details class="faq-item" data-anime><summary>Faut-il savoir « ressentir » ?</summary><div class="faq-reponse"><p>Non. Vous allez ressentir avec votre corps ce qui est en vous, et si vous ne savez pas ressentir, je vous l’apprends, en simplicité.</p></div></details><details class="faq-item" data-anime><summary>Combien de séances faut-il ?</summary><div class="faq-reponse"><p>C’est généralement assez rapide, et l’on sent la différence pendant la séance. Pour un travail de fond, l’accompagnement Reconnexion à Soi propose un rythme sur 1 à 9 mois.</p></div></details><details class="faq-item" data-anime><summary>Est-ce un soin médical ?</summary><div class="faq-reponse"><p>Non. C’est une pratique de bien-être non médicale : elle ne remplace pas un avis, un diagnostic ou un traitement médical. Si vous suivez un traitement, poursuivez-le.</p></div></details><details class="faq-item" data-anime><summary>Où se passe la séance ?</summary><div class="faq-reponse"><p>Au cabinet, à L’Horte, à 5 min de Lamalou-les-Bains. À distance par téléphone ou visio : à confirmer avec Muriel.</p></div></details><details class="faq-item" data-anime><summary>Comment régler ?</summary><div class="faq-reponse"><p>Espèces, chèque, virement ou PayPal. Les tarifs sont « selon vos ressources » : le montant indiqué est un minimum.</p></div></details></div>
+  </div>
+</section>
+<section class="fin-page" id="fin">
+  <div class="conteneur fin-grille">
+    <div class="lotus lotus--petit" data-lotus aria-hidden="true">
+      <figure class="media lotus-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/lotus-ouvert-784.webp" srcset="/assets/images/grok/lotus-ouvert-640.webp 640w, /assets/images/grok/lotus-ouvert-784.webp 784w" sizes="180px" alt="" width="784" height="784" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <svg class="lotus-trait" viewBox="0 0 100 100" focusable="false" data-audit-ignorer><circle cx="50" cy="50" r="48" pathLength="100"></circle></svg>
+    </div>
+    <div>
+      <h2 data-anime>Envie de revenir <em>à zéro</em> ?</h2>
+      <p data-anime>Une séance d’1 h, d’1 h 30 ou de 2 h, au cabinet ou à distance. Appelez, écrivez un SMS ou un message WhatsApp.</p>
+      <p class="fin-actions" data-anime>
+        <a class="bouton" href="/?sujet=liberations#rendez-vous" data-libelle="Rendez-vous">Demander une séance</a>
+        <a class="bouton bouton--contour" href="tel:+33613662049">Appeler 06 13 66 20 49</a>
+      </p>
+      <p data-anime><a class="lien-fleche" href="/reconnexion-a-soi" data-libelle="Reconnexion à Soi">Aller plus loin : Reconnexion à Soi</a></p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-identite">
+      <img src="/assets/images/logo-clair.svg" alt="" width="56" height="56">
+      <p class="pied-nom">Soins Esprit Âme et Corps Réunis</p>
+      <p class="pied-sous">Muriel Chaplain</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>2 bis chemin du Champ des Vignes, L’Horte, 34600 Taussac-la-Billière</p>
+      <ul>
+        <li><a href="tel:+33613662049">06 13 66 20 49</a></li>
+        <li><a href="mailto:murielchaplain34@free.fr">murielchaplain34@free.fr</a></li>
+        <li><a href="https://wa.me/33613662049" rel="noopener" target="_blank">WhatsApp<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul>
+        <li><a href="/" data-libelle="Accueil">Accueil</a></li>
+        <li><a href="/#muriel" data-libelle="Muriel">Muriel</a></li><li><a href="/#soins" data-libelle="Les soins">Les soins</a></li><li><a href="/liberations-point-zero" data-libelle="Libérations">Libérations</a></li><li><a href="/reconnexion-a-soi" data-libelle="Reconnexion à Soi">Reconnexion à Soi</a></li><li><a href="/#ateliers" data-libelle="Ateliers">Ateliers</a></li><li><a href="/#voyage" data-libelle="Voyage">Voyage</a></li>
+        <li><a href="/#rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li>
+        <li><a href="/mentions-legales" data-libelle="Mentions légales">Mentions légales</a></li>
+        <li><a href="/mentions-legales#confidentialite" data-libelle="Mentions légales">Confidentialité</a></li>
+      </ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Muriel</p>
+      <ul>
+        <li><a href="https://www.facebook.com/SoinEspritAmeetCorpsreunisTherapeuteBienEtre" rel="noopener" target="_blank">Facebook<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/soin.esprit.ame.corps.reunis/" rel="noopener" target="_blank">Instagram<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+        <li><a href="https://www.resalib.fr/praticien/56468-muriel-chaplain-soin-esprit-ame-et-corps-reunis-energeticien-taussac-la-billiere" rel="noopener" target="_blank">Fiche Resalib<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+      </ul>
+      <p class="pied-titre">Confort</p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p class="pied-medical">Les soins proposés sont des pratiques de bien‑être non médicales : ils ne remplacent pas un avis, un diagnostic ou un traitement médical.</p>
+    <p>Maquette : les informations marquées « à compléter » ou « à confirmer » seront fournies par Muriel Chaplain.</p>
+    <p>© Soins Esprit Âme et Corps Réunis · Muriel Chaplain</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33613662049">Appeler</a>
+  <a class="bouton bouton--contour" href="https://wa.me/33613662049" rel="noopener" target="_blank">WhatsApp<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a>
+  <a class="bouton" href="/#rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a>
+</div>
+<div class="son-pastille" data-son-pastille role="status" aria-live="polite" hidden data-superpose data-fini="Le son est arrêté.">
+  <span class="son-ondes" aria-hidden="true"><span></span><span></span><span></span></span>
+  <span data-son-texte>Un bol chantant résonne</span>
+  <button type="button" class="son-arreter" data-son-arreter>Arrêter</button>
+</div>
+</body>
+</html>

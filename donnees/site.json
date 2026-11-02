@@ -1,0 +1,32 @@
+{
+  "nom": "Soins Esprit Âme et Corps Réunis",
+  "adresse": "https://muriel-chaplain-maquette.vercel.app",
+  "siteActuel": "soins-esprit-ame-et-corps-reunis-muriel-chaplain.info",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "liberations", "reconnexion"],
+  "menu": [
+    { "page": "accueil", "ancre": "muriel", "cle": "muriel" },
+    { "page": "accueil", "ancre": "soins", "cle": "soins" },
+    { "page": "liberations", "cle": "liberations" },
+    { "page": "reconnexion", "cle": "reconnexion" },
+    { "page": "accueil", "ancre": "ateliers", "cle": "ateliers" },
+    { "page": "accueil", "ancre": "voyage", "cle": "voyage" }
+  ],
+  "actionEntete": { "page": "accueil", "ancre": "rendez-vous" },
+  "couleurs": { "fond": "#f6f0e6", "texte": "#2b1e2f", "voile": "#2b1e2f", "ouverture": "#2b1e2f", "menu": "#f6f0e6", "theme": "#f6f0e6" },
+  "contact": {
+    "telephone": "06 13 66 20 49",
+    "telephoneLien": "+33613662049",
+    "whatsapp": "https://wa.me/33613662049",
+    "email": "murielchaplain34@free.fr",
+    "adresse": "2 bis chemin du Champ des Vignes, L’Horte, 34600 Taussac-la-Billière",
+    "itineraire": "https://www.google.com/maps/search/?api=1&query=2+bis+chemin+du+Champ+des+Vignes+34600+Taussac-la-Billi%C3%A8re",
+    "facebook": "https://www.facebook.com/SoinEspritAmeetCorpsreunisTherapeuteBienEtre",
+    "instagram": "https://www.instagram.com/soin.esprit.ame.corps.reunis/",
+    "resalib": "https://www.resalib.fr/praticien/56468-muriel-chaplain-soin-esprit-ame-et-corps-reunis-energeticien-taussac-la-billiere"
+  },
+  "polices": ["/assets/polices/fraunces.woff2", "/assets/polices/figtree.woff2"],
+  "imagePartage": "grok/accueil-eau-1168.webp",
+  "curseur": true
+}

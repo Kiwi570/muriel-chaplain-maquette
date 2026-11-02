@@ -1,0 +1,32 @@
+[
+ {
+  "titre": "Soin énergétique d’harmonisation",
+  "image": "seance-soin",
+  "alt": "Muriel Chaplain pendant un soin énergétique, mains au-dessus d’une personne allongée",
+  "cadrage": "30% 45%"
+ },
+ {
+  "titre": "Séances de libérations au Point Zéro",
+  "image": "grok/soin-liberations",
+  "alt": "Des cercles de lumière s’étendent sur une eau sombre",
+  "cadrage": "50% 50%"
+ },
+ {
+  "titre": "Massage connecté aux mains d’or, au cabinet",
+  "image": "muriel-cabinet-accueil",
+  "alt": "Muriel Chaplain dans son cabinet de L’Horte, près de la table de massage",
+  "cadrage": "42% 50%"
+ },
+ {
+  "titre": "Sonothérapie",
+  "image": "instruments-bain-sonore",
+  "alt": "Gong, bols chantants et carillons",
+  "cadrage": "50% 50%"
+ },
+ {
+  "titre": "Soin chamanique",
+  "image": "muriel-tambour-portrait",
+  "alt": "Muriel Chaplain joue du tambour, assise sur un tapis fleur de vie",
+  "cadrage": "50% 35%"
+ }
+]

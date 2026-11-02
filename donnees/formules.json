@@ -1,0 +1,7 @@
+[
+  { "id": "1-mois", "mois": 1, "seances": 4, "rythme": "semaine", "prix": 500 },
+  { "id": "2-mois", "mois": 2, "seances": 8, "rythme": "semaine", "prix": 1000 },
+  { "id": "3-mois", "mois": 3, "seances": 6, "rythme": "quinzaine", "prix": 733 },
+  { "id": "6-mois", "mois": 6, "seances": 12, "rythme": "quinzaine", "prix": 1366 },
+  { "id": "9-mois", "mois": 9, "seances": 18, "rythme": "quinzaine", "prix": 1900 }
+]

@@ -1,0 +1,318 @@
+[
+ {
+  "source": "recu/site/muriel-assise-tambour.jpg",
+  "nom": "muriel-assise-tambour",
+  "cadrage": [
+   50,
+   40
+  ]
+ },
+ {
+  "source": "recu/site/muriel-tambour-portrait.jpg",
+  "nom": "muriel-tambour-portrait",
+  "cadrage": [
+   50,
+   40
+  ]
+ },
+ {
+  "source": "recu/site/muriel-cabinet-accueil.jpg",
+  "nom": "muriel-cabinet-accueil",
+  "cadrage": [
+   45,
+   45
+  ]
+ },
+ {
+  "source": "recu/site/seance-soin.jpg",
+  "nom": "seance-soin",
+  "cadrage": [
+   35,
+   45
+  ]
+ },
+ {
+  "source": "recu/site/cabinet-table.jpg",
+  "nom": "cabinet-table",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/cabinet-table-portrait.jpg",
+  "nom": "cabinet-table-portrait",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/cabinet-coin-tambour.jpg",
+  "nom": "cabinet-coin-tambour",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/koshi-bol-jardin.jpg",
+  "nom": "koshi-bol-jardin",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/instruments-bain-sonore.jpg",
+  "nom": "instruments-bain-sonore",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/danse-en-cercle.jpg",
+  "nom": "danse-en-cercle",
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/site/massage-nature-salagou.jpg",
+  "nom": "massage-nature-salagou",
+  "cadrage": [
+   45,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/dessin-pilier.jpg",
+  "nom": "dessin-pilier",
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-eau-16x9.jpg",
+  "nom": "grok/accueil-eau",
+  "cadrage": [
+   62,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-eau-9x16.jpg",
+  "nom": "grok/accueil-eau-mobile",
+  "cadrage": [
+   50,
+   60
+  ]
+ },
+ {
+  "source": "recu/grok/eau-calme-texture-16x9.jpg",
+  "nom": "grok/eau-calme-texture"
+ },
+ {
+  "source": "recu/grok/soin-liberations-2x3.jpg",
+  "nom": "grok/soin-liberations",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/reconnexion-sentier-2x3.jpg",
+  "nom": "grok/reconnexion-sentier",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/cheval-main-2x3.jpg",
+  "nom": "grok/cheval-main",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/desert-dunes-aube-16x9.jpg",
+  "nom": "grok/desert-dunes",
+  "cadrage": [
+   60,
+   60
+  ]
+ },
+ {
+  "source": "recu/grok/desert-dunes-aube-9x16.jpg",
+  "nom": "grok/desert-dunes-mobile",
+  "cadrage": [
+   50,
+   60
+  ]
+ },
+ {
+  "source": "recu/grok/bivouac-etoiles-16x9.jpg",
+  "nom": "grok/bivouac-etoiles",
+  "cadrage": [
+   60,
+   60
+  ]
+ },
+ {
+  "source": "recu/grok/oasis-palmeraie-3x2.jpg",
+  "nom": "grok/oasis-palmeraie",
+  "cadrage": [
+   55,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/haut-languedoc-16x9.jpg",
+  "nom": "grok/haut-languedoc",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/lotus-ouvert-1x1.jpg",
+  "nom": "grok/lotus-ouvert",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/liberations-ouverture-16x9.jpg",
+  "nom": "grok/liberations-ouverture",
+  "cadrage": [
+   66,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/liberations-ouverture-9x16.jpg",
+  "nom": "grok/liberations-ouverture-mobile",
+  "cadrage": [
+   50,
+   60
+  ]
+ },
+ {
+  "source": "recu/grok/fil-lumiere-2x3.jpg",
+  "nom": "grok/fil-lumiere",
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/grok/chemin-horizon-16x9.jpg",
+  "nom": "grok/chemin-horizon",
+  "cadrage": [
+   50,
+   60
+  ]
+ },
+ {
+  "source": "recu/grok/reconnexion-ouverture-16x9.jpg",
+  "nom": "grok/reconnexion-ouverture",
+  "cadrage": [
+   70,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/reconnexion-ouverture-9x16.jpg",
+  "nom": "grok/reconnexion-ouverture-mobile",
+  "cadrage": [
+   50,
+   65
+  ]
+ },
+ {
+  "source": "recu/grok/reflets-lumiere-16x9.jpg",
+  "nom": "grok/reflets-lumiere",
+  "cadrage": [
+   60,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/a-distance-2x3.jpg",
+  "nom": "grok/a-distance",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/sejour-intensif-2x3.jpg",
+  "nom": "grok/sejour-intensif",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/lumiere-progressive-16x9.jpg",
+  "nom": "grok/lumiere-progressive",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/mentions-entete-16x9.jpg",
+  "nom": "grok/mentions-entete",
+  "cadrage": [
+   60,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/page-404-16x9.jpg",
+  "nom": "grok/page-404",
+  "cadrage": [
+   58,
+   45
+  ]
+ },
+ {
+  "source": "recu/grok/page-404-9x16.jpg",
+  "nom": "grok/page-404-mobile",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/quartz-herbe.jpg",
+  "nom": "quartz-herbe",
+  "cadrage": [
+   40,
+   55
+  ]
+ },
+ {
+  "source": "recu/site/cristal-plaques-jardin.jpg",
+  "nom": "cristal-plaques-jardin",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/dessin-spirales.jpg",
+  "nom": "dessin-spirales",
+  "cadrage": [
+   50,
+   50
+  ]
+ }
+]

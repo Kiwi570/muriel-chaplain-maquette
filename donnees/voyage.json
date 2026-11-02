@@ -1,0 +1,48 @@
+{
+  "cartes": [
+    {
+      "titre": "À La Source Gaïa",
+      "texte": "Retour à l’unité en soi, soins et expériences collectives, enseignements vibratoires et ancestraux, communication animale et connexion au vivant.",
+      "image": "grok/oasis-palmeraie",
+      "alt": "Une palmeraie au bord du désert à l’heure dorée, un petit canal reflète le ciel"
+    },
+    {
+      "titre": "Vivre ensemble",
+      "texte": "Cuisiner, rire, marcher, partager un repas, se confronter parfois à nos différences, s’entraider, ne rien faire : l’unité se découvre aussi dans les choses simples."
+    },
+    {
+      "titre": "Au cœur du désert",
+      "texte": "Une randonnée chamelière dans l’immensité, pour retrouver le silence et se laisser dépouiller du superflu."
+    },
+    {
+      "titre": "Bivouac sous les étoiles",
+      "texte": "Dormir dans le désert, sous un ciel immense : un espace rare où quelque chose peut enfin être entendu.",
+      "image": "grok/bivouac-etoiles",
+      "alt": "La Voie lactée au-dessus des dunes, quelques tentes éclairées de l’intérieur"
+    }
+  ],
+  "inclus": [
+    "Transferts depuis l’aéroport de Ouarzazate",
+    "Hébergement en chambre de 3 ou 4 personnes",
+    "Tous les repas à partir du deuxième jour, eau minérale",
+    "Retraite, transmissions et enseignements",
+    "Expérience du désert et bivouac"
+  ],
+  "nonInclus": [
+    "Vol",
+    "Chambre individuelle",
+    "Boissons autres que l’eau minérale"
+  ],
+  "contacts": [
+    {
+      "nom": "Cédric Mabyre",
+      "tel": "07 49 22 75 74",
+      "lien": "+33749227574"
+    },
+    {
+      "nom": "Muriel Chaplain",
+      "tel": "06 13 66 20 49",
+      "lien": "+33613662049"
+    }
+  ]
+}

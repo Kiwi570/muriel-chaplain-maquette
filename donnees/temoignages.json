@@ -1,0 +1,112 @@
+[
+  {
+    "id": "celine",
+    "nom": "Céline",
+    "contexte": "accompagnement, septembre 2026",
+    "source": "message",
+    "pages": [
+      "accueil"
+    ],
+    "texte": "Merci pour ton accompagnement, mais surtout merci d’être qui tu es. Ta douceur, ton intuition, ton amour, ta lumière et ta justesse m’ont profondément touchée. Tu sais écouter au-delà des mots, sentir ce qui a besoin d’être amené, accueilli et expansé, toujours avec tellement de bienveillance."
+  },
+  {
+    "id": "colette",
+    "nom": "Colette Marie G.",
+    "contexte": "massage en pleine nature, juin 2025",
+    "source": "message",
+    "pages": [
+      "accueil"
+    ],
+    "texte": "Imaginez : un lac des collines vibrantes, une brise caressante, des oiseaux qui chantent, une terre rouge comme l’ancrage, un soleil doux comme une mère, et un moment dédié à recevoir le massage le plus relaxant et le plus ressourçant ! […] Alors je recommande le tout : le lieu, la formule détente et soins, et surtout cette belle Âme qui a de l’or dans les mains."
+  },
+  {
+    "id": "beatrice",
+    "nom": "Béatrice G.",
+    "contexte": "soins, avril 2022",
+    "source": "Facebook et Resalib",
+    "pages": [
+      "accueil"
+    ],
+    "texte": "Un lieu magique, rempli d’Amour, de Paix, de Bienveillance, où l’espace-temps n’existe plus… […] Quel que soit le soin que vous choisirez, Muriel vous guide au plus profond de votre Âme pour une connexion à votre Être intérieur, bouleversant et merveilleux à la fois."
+  },
+  {
+    "id": "rudolphe",
+    "nom": "Rudolphe J.",
+    "contexte": "journée d’enseignement, décembre 2023",
+    "source": "e-mail",
+    "pages": [
+      "accueil"
+    ],
+    "texte": "Muriel est à notre écoute et nous apporte un enseignement qui nous fait avancer dans notre cheminement spirituel. Tout est fait dans la joie, l’amour, la spontanéité et nous en ressortons heureux de ce savoir."
+  },
+  {
+    "id": "pascale",
+    "nom": "Pascale D.",
+    "contexte": "soins aux bols, novembre 2024",
+    "source": "Facebook",
+    "pages": [
+      "accueil"
+    ],
+    "texte": "Les soins aux bols de Muriel, c’est un vrai voyage avec un accompagnement magnifique. N’hésitez pas."
+  },
+  {
+    "id": "laurence",
+    "nom": "Laurence B.",
+    "contexte": "soins énergétiques, décembre 2021",
+    "source": "Facebook",
+    "pages": [
+      "accueil"
+    ],
+    "texte": "Muriel est à l’écoute des besoins et on se sent très bien accompagné avec douceur et bienveillance. Je recommande vivement."
+  },
+  {
+    "id": "marielle",
+    "nom": "Marielle",
+    "contexte": "ateliers",
+    "source": "témoignage écrit",
+    "pages": [
+      "accueil"
+    ],
+    "texte": "Les ateliers passés en compagnie des participants m’ont permis d’ouvrir une porte dans ma recherche personnelle […] La joie, la simplicité, la communication de Muriel dans les échanges sont un don précieux de sa personne."
+  },
+  {
+    "id": "francoise",
+    "nom": "Françoise, kinésiologue",
+    "contexte": "libération quantique, septembre 2026",
+    "source": "message",
+    "pages": [
+      "liberations"
+    ],
+    "texte": "J’ai commencé par énoncer ma problématique que Muriel est venue questionner avec une grande maturité professionnelle, ses questions sont toujours bien ciblées, ses mots sont choisis et précis. […] Suite à la séance, j’ai ressenti une très grande détente […] Je ne me sens plus la même à la suite de cette libération. Je conseille Muriel sans l’ombre d’une hésitation."
+  },
+  {
+    "id": "eric",
+    "nom": "Éric, masseur holistique",
+    "contexte": "accompagnement et atelier",
+    "source": "témoignage écrit",
+    "pages": [
+      "liberations"
+    ],
+    "texte": "Ma rencontre avec Muriel a redéfini mon orientation et ma perception du champ d’expérience de ma vie. Je suis venu la rencontrer pour m’aider à comprendre un choc […] Son accompagnement m’a permis de me libérer de la colère liée à cet événement."
+  },
+  {
+    "id": "julie",
+    "nom": "Julie, enseignante cavalière et formatrice",
+    "contexte": "accompagnement",
+    "source": "témoignage écrit",
+    "pages": [
+      "reconnexion"
+    ],
+    "texte": "Aujourd’hui, le mot qui résume le mieux ce parcours est « Recentrage ». Grâce à Muriel, j’ai retrouvé un ancrage profond, une connexion à moi-même et à ce qui m’entoure. […] Ce n’est pas un processus qui se termine en deux séances ; c’est un cheminement de fond pour devenir la meilleure version de soi-même."
+  },
+  {
+    "id": "nadege",
+    "nom": "Nadège C.",
+    "contexte": "juin 2020",
+    "source": "Facebook",
+    "pages": [
+      "reconnexion"
+    ],
+    "texte": "Super moment. Je recommande vivement. Je suis repartie plus riche de connaissances merveilleuses. Encore un grand merci."
+  }
+]

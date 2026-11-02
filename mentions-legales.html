@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-gabarit="mentions-legales" data-page="mentions-legales" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mentions légales et confidentialité : Soins Esprit Âme et Corps Réunis</title>
+<meta name="description" content="Éditeur, hébergeur, cadre de pratique, crédits et confidentialité du site de Muriel Chaplain.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://muriel-chaplain-maquette.vercel.app/mentions-legales">
+<style>:root{--fond:#f6f0e6;--texte:#2b1e2f;--voile-fond:#2b1e2f;--ouverture-fond:#2b1e2f;--menu-fond:#f6f0e6}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f6f0e6">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Soins Esprit Âme et Corps Réunis">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Mentions légales et confidentialité : Soins Esprit Âme et Corps Réunis">
+<meta property="og:description" content="Éditeur, hébergeur, cadre de pratique, crédits et confidentialité du site de Muriel Chaplain.">
+<meta property="og:url" content="https://muriel-chaplain-maquette.vercel.app/mentions-legales">
+<meta property="og:image" content="https://muriel-chaplain-maquette.vercel.app/assets/partage/mentions-legales-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mentions légales de Soins Esprit Âme et Corps Réunis">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Soins Esprit Âme et Corps Réunis","description":"Libérations au Point Zéro, soins énergétiques, massages bien-être intuitifs, sonothérapie, accompagnements et enseignements avec Muriel Chaplain. Pratiques de bien-être non médicales.","url":"https://muriel-chaplain-maquette.vercel.app/","telephone":"+33613662049","email":"murielchaplain34@free.fr","founder":{"@type":"Person","name":"Muriel Chaplain"},"address":{"@type":"PostalAddress","streetAddress":"2 bis chemin du Champ des Vignes, L’Horte","postalCode":"34600","addressLocality":"Taussac-la-Billière","addressRegion":"Hérault","addressCountry":"FR"},"areaServed":"Lamalou-les-Bains et 30 minutes alentour","priceRange":"40 € – 160 € la séance","paymentAccepted":"Espèces, chèque, virement, PayPal","sameAs":["https://www.facebook.com/SoinEspritAmeetCorpsreunisTherapeuteBienEtre","https://www.instagram.com/soin.esprit.ame.corps.reunis/","https://www.resalib.fr/praticien/56468-muriel-chaplain-soin-esprit-ame-et-corps-reunis-energeticien-taussac-la-billiere"]}</script>
+</head>
+<body id="haut">
+<div data-voile aria-hidden="true"><div class="voile-contenu"><span class="voile-goutte"></span><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Mentions légales</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="intro-ondes" viewBox="-50 -50 100 100" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <circle class="intro-onde" r="12"></circle><circle class="intro-onde" r="24"></circle><circle class="intro-onde" r="38"></circle>
+  </svg>
+  <span class="intro-goutte"></span>
+  <p class="intro-mots"><span class="intro-mot">Esprit</span><span class="intro-mot">Âme</span><span class="intro-mot">Corps</span></p>
+  <p class="intro-reunis">Réunis</p>
+  <p class="intro-bas"><span class="intro-cadran" data-intro-cadran>10</span><span class="intro-nom">Muriel Chaplain</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Soins Esprit Âme et Corps Réunis, accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40">
+      <span class="logo-texte"><span class="logo-nom">Muriel Chaplain</span><span class="logo-sous">Esprit · Âme · Corps réunis</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/#muriel" data-libelle="Muriel">Muriel</a></li><li><a href="/#soins" data-libelle="Les soins">Les soins</a></li><li><a href="/liberations-point-zero" data-libelle="Libérations">Libérations</a></li><li><a href="/reconnexion-a-soi" data-libelle="Reconnexion à Soi">Reconnexion à Soi</a></li><li><a href="/#ateliers" data-libelle="Ateliers">Ateliers</a></li><li><a href="/#voyage" data-libelle="Voyage">Voyage</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <span class="cadran " data-cadran aria-hidden="true" title="Point Zéro : de 10 à 0 au fil de la page">
+  <svg viewBox="0 0 44 44" focusable="false"><circle class="cadran-fond" cx="22" cy="22" r="19"></circle><circle class="cadran-arc" cx="22" cy="22" r="19" pathLength="100"></circle></svg>
+  <span class="cadran-chiffre" data-cadran-chiffre>10</span>
+</span>
+      <a class="bouton" href="/#rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span class="menu-icone" aria-hidden="true"><span></span><span></span></span><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="menu-grille">
+    <ul class="menu-liste"><li style="--i:0"><a class="menu-lien" href="/" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a class="menu-lien" href="/#muriel" data-libelle="Muriel">Muriel</a></li><li style="--i:2"><a class="menu-lien" href="/#soins" data-libelle="Les soins">Les soins</a></li><li style="--i:3"><a class="menu-lien" href="/liberations-point-zero" data-libelle="Libérations">Libérations</a></li><li style="--i:4"><a class="menu-lien" href="/reconnexion-a-soi" data-libelle="Reconnexion à Soi">Reconnexion à Soi</a></li><li style="--i:5"><a class="menu-lien" href="/#ateliers" data-libelle="Ateliers">Ateliers</a></li><li style="--i:6"><a class="menu-lien" href="/#voyage" data-libelle="Voyage">Voyage</a></li></ul>
+    <div class="menu-contact">
+      <p><a class="bouton" href="/#rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a></p>
+      <p><a class="bouton bouton--contour" href="tel:+33613662049">Appeler 06 13 66 20 49</a></p>
+      <p><a class="bouton bouton--contour" href="https://wa.me/33613662049" rel="noopener" target="_blank">Écrire sur WhatsApp<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></p>
+      <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+    </div>
+  </div>
+</div>
+<main id="contenu" tabindex="-1" data-sans-action>
+<div data-barre-lecture aria-hidden="true"></div>
+<section class="page-tete page-tete--legal conteneur" id="debut">
+  <div>
+    <h1>Mentions légales</h1>
+    <nav data-sommaire aria-label="Sommaire"><ul><li><a href="#fiche">À fournir par Muriel Chaplain</a></li><li><a href="#editeur">Éditeur</a></li><li><a href="#hebergeur">Hébergeur</a></li><li><a href="#cadre">Cadre de pratique</a></li><li><a href="#credits">Crédits</a></li><li><a href="#confidentialite">Confidentialité</a></li></ul></nav>
+  </div>
+  <figure class="media page-tete-media" data-grok style="--cadrage:60% 55%">
+  <picture>
+    <img src="/assets/images/grok/mentions-entete-1168.webp" srcset="/assets/images/grok/mentions-entete-640.webp 640w, /assets/images/grok/mentions-entete-1168.webp 1168w" sizes="(max-width: 760px) 100vw, 44vw" alt="" width="1168" height="657" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<div class="texte-long conteneur" data-sans-visuel>
+  <section id="fiche" data-sans-visuel><h2>À fournir par Muriel Chaplain</h2><p>Forme juridique et numéro SIRET à confirmer · directeur ou directrice de la publication · assurance responsabilité civile professionnelle · photos et droits à l’image des personnes visibles · organisateur du voyage et son immatriculation · politique de confidentialité · durée de conservation des demandes.</p></section><section id="editeur" data-sans-visuel><h2>Éditeur</h2><p>Muriel Chaplain, Soins Esprit Âme et Corps Réunis, 2 bis chemin du Champ des Vignes, L’Horte, 34600 Taussac-la-Billière. Téléphone : 06 13 66 20 49. E-mail : murielchaplain34@free.fr. Numéro d’identification : 750 012 155 (indiqué sur Resalib, à confirmer). Directeur ou directrice de la publication : à compléter.</p></section><section id="hebergeur" data-sans-visuel><h2>Hébergeur</h2><p>Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis.</p></section><section id="cadre" data-sans-visuel><h2>Cadre de pratique</h2><p>Les soins énergétiques, libérations, massages et bains sonores proposés sont des pratiques de bien‑être non médicales. Ils ne remplacent pas un avis, un diagnostic ou un traitement médical, et ne doivent jamais conduire à interrompre un traitement. Les massages sont des massages de bien‑être, sans visée thérapeutique.</p></section><section id="credits" data-sans-visuel><h2>Crédits</h2><p>Photographies : Muriel Chaplain (à confirmer). Les images marquées « Illustration générée » ont été créées par intelligence artificielle et ne représentent ni des personnes ni des lieux réels du cabinet. Polices Fraunces et Figtree, sous licence SIL Open Font License.</p></section><section id="confidentialite" data-sans-visuel><h2>Confidentialité</h2><p>Politique de confidentialité à compléter (RGPD) : données recueillies par les formulaires (nom, téléphone, e-mail, message), finalité (répondre à votre demande), durée de conservation, destinataire (Muriel Chaplain uniquement), droits d’accès, de rectification et d’effacement, contact. Ce site ne dépose aucun cookie de mesure d’audience ; il garde seulement, dans votre navigateur, votre réglage « Réduire les animations ».</p></section>
+</div>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-identite">
+      <img src="/assets/images/logo-clair.svg" alt="" width="56" height="56">
+      <p class="pied-nom">Soins Esprit Âme et Corps Réunis</p>
+      <p class="pied-sous">Muriel Chaplain</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>2 bis chemin du Champ des Vignes, L’Horte, 34600 Taussac-la-Billière</p>
+      <ul>
+        <li><a href="tel:+33613662049">06 13 66 20 49</a></li>
+        <li><a href="mailto:murielchaplain34@free.fr">murielchaplain34@free.fr</a></li>
+        <li><a href="https://wa.me/33613662049" rel="noopener" target="_blank">WhatsApp<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul>
+        <li><a href="/" data-libelle="Accueil">Accueil</a></li>
+        <li><a href="/#muriel" data-libelle="Muriel">Muriel</a></li><li><a href="/#soins" data-libelle="Les soins">Les soins</a></li><li><a href="/liberations-point-zero" data-libelle="Libérations">Libérations</a></li><li><a href="/reconnexion-a-soi" data-libelle="Reconnexion à Soi">Reconnexion à Soi</a></li><li><a href="/#ateliers" data-libelle="Ateliers">Ateliers</a></li><li><a href="/#voyage" data-libelle="Voyage">Voyage</a></li>
+        <li><a href="/#rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li>
+        <li><a href="/mentions-legales" data-libelle="Mentions légales" aria-current="page">Mentions légales</a></li>
+        <li><a href="/mentions-legales#confidentialite" data-libelle="Mentions légales">Confidentialité</a></li>
+      </ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Muriel</p>
+      <ul>
+        <li><a href="https://www.facebook.com/SoinEspritAmeetCorpsreunisTherapeuteBienEtre" rel="noopener" target="_blank">Facebook<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/soin.esprit.ame.corps.reunis/" rel="noopener" target="_blank">Instagram<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+        <li><a href="https://www.resalib.fr/praticien/56468-muriel-chaplain-soin-esprit-ame-et-corps-reunis-energeticien-taussac-la-billiere" rel="noopener" target="_blank">Fiche Resalib<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a></li>
+      </ul>
+      <p class="pied-titre">Confort</p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p class="pied-medical">Les soins proposés sont des pratiques de bien‑être non médicales : ils ne remplacent pas un avis, un diagnostic ou un traitement médical.</p>
+    <p>Maquette : les informations marquées « à compléter » ou « à confirmer » seront fournies par Muriel Chaplain.</p>
+    <p>© Soins Esprit Âme et Corps Réunis · Muriel Chaplain</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33613662049">Appeler</a>
+  <a class="bouton bouton--contour" href="https://wa.me/33613662049" rel="noopener" target="_blank">WhatsApp<span class="visuellement-cache"> (s’ouvre dans un nouvel onglet)</span></a>
+  <a class="bouton" href="/#rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a>
+</div>
+<div class="son-pastille" data-son-pastille role="status" aria-live="polite" hidden data-superpose data-fini="Le son est arrêté.">
+  <span class="son-ondes" aria-hidden="true"><span></span><span></span><span></span></span>
+  <span data-son-texte>Un bol chantant résonne</span>
+  <button type="button" class="son-arreter" data-son-arreter>Arrêter</button>
+</div>
+</body>
+</html>

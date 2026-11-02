@@ -1,0 +1,106 @@
+[
+  {
+    "id": "liberations",
+    "nom": "Libérations au Point Zéro",
+    "envie": "Dénouer une émotion, une peur, un schéma",
+    "texte": "Une méthode douce pour dénouer ce qui se rejoue en vous, émotions, peurs ou schémas, en partant de votre ressenti dans le corps.",
+    "tarifs": [
+      {
+        "duree": "1 h",
+        "prix": "80 €",
+        "plus": true
+      },
+      {
+        "duree": "1 h 30",
+        "prix": "120 €",
+        "plus": false
+      },
+      {
+        "duree": "2 h",
+        "prix": "160 €",
+        "plus": true
+      }
+    ],
+    "lieu": "Au cabinet, ou à distance (à confirmer)",
+    "image": "grok/soin-liberations",
+    "alt": "Une goutte de lumière dorée touche une eau sombre et dessine des cercles",
+    "cadrage": "50% 50%",
+    "page": "liberations"
+  },
+  {
+    "id": "energetique",
+    "nom": "Soins énergétiques",
+    "envie": "Rééquilibrer mon énergie",
+    "texte": "Équilibrer les énergies, décristalliser ce qui est bloqué et laisser l’énergie circuler librement : un moment pour soi, de détente et de recentrage. Chaque protocole est adapté à la personne, au moment présent.",
+    "tarifs": [
+      {
+        "duree": "1 h",
+        "prix": "80 €",
+        "plus": false
+      },
+      {
+        "duree": "1 h 30",
+        "prix": "120 €",
+        "plus": false
+      },
+      {
+        "duree": "2 h",
+        "prix": "160 €",
+        "plus": false
+      }
+    ],
+    "lieu": "Au cabinet, à domicile ou à distance (téléphone, visio)",
+    "image": "seance-soin",
+    "alt": "Muriel Chaplain pose les mains au-dessus d’une personne allongée sur la table de soin",
+    "cadrage": "30% 45%"
+  },
+  {
+    "id": "massage",
+    "nom": "Massages bien‑être intuitifs",
+    "envie": "Me détendre profondément",
+    "texte": "Des massages sur mesure, sans visée thérapeutique, guidés par l’écoute de votre corps : Émotionnel, Pure détente, Cristal‑Diamant, Recentrage‑alignement, Source d’Amour… et même en pleine nature. Huiles de massage bio.",
+    "tarifs": [
+      {
+        "duree": "1 h",
+        "prix": "90 €",
+        "plus": false
+      },
+      {
+        "duree": "2 h",
+        "prix": "160 €",
+        "plus": false
+      }
+    ],
+    "lieu": "Au cabinet ; en pleine nature, tarif selon le déplacement",
+    "image": "massage-nature-salagou",
+    "alt": "Une table de massage installée à l’ombre d’un grand arbre, en pleine nature",
+    "cadrage": "45% 60%"
+  },
+  {
+    "id": "sonotherapie",
+    "nom": "Sonothérapie",
+    "envie": "Lâcher prise par le son",
+    "texte": "Des bains sonores aux bols tibétains, au koshi, aux tambours et à la voix : en position allongée, les yeux fermés, vous vous laissez porter par les vibrations.",
+    "tarifs": [
+      {
+        "duree": "40 min",
+        "prix": "40 €",
+        "plus": false
+      },
+      {
+        "duree": "60 min",
+        "prix": "70 €",
+        "plus": false
+      },
+      {
+        "duree": "90 min",
+        "prix": "100 €",
+        "plus": false
+      }
+    ],
+    "lieu": "Au cabinet (à confirmer)",
+    "image": "koshi-bol-jardin",
+    "alt": "Un bol chantant et un carillon koshi posés sur une table en bois, au jardin",
+    "cadrage": "50% 60%"
+  }
+]
